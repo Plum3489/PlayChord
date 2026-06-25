@@ -15,6 +15,7 @@ PlayChord is a USB MIDI chord controller built around the Seeed XIAO RP2040 micr
 ## Hardware Specification
 
 ### Bill of Materials (BOM)
+1x PCB
 1 unsoldered Seeed XIAO RP2040
 12x through-hole 1N4148 Diodes
 11x MX-Style switches
@@ -64,7 +65,7 @@ Process:
 5. Set Row pin to HIGH (deactivate)
 6. Move to next row
 
-´´´Rotary Encoder
+Rotary Encoder
 Purpose: Change musical key via rotary encoder
 Method:  Hardware interrupt on encoder Pin A
 Timing:  Interrupt-driven (no polling)
@@ -79,7 +80,7 @@ Process:
 
 Yeah!
 
-´´´Chord Gen!!
+##Chord Gen!!
 Purpose: Convert button press -> MIDI note-on events
 Input:   Chord index (0-6, representing I through vii°)
 
@@ -96,15 +97,15 @@ Process:
 5. If chordType ≥ 1: Add 7th tone
 6. If chordType = 2: Add 9th tone
 
-## Button functionality 
+##Button functionality 
 Button	    Mode	    Action
 ------------------------------
 SW1-7	    Any	        Play diatonic chord I-vii°
-SW8	      Release	    Octave shift +1 (max +2)
-SW9	      Press	      Toggle chord type: Triad → 7th → 9th
-SW10	    Release	    Octave shift -1 (min -2)
-SW11	    Release     Toggle Major ↔ Minor mode
-SW12	    Press	      PANIC: All notes off
+SW8	    Release	     Octave shift +1 (max +2)
+SW9	    Press	     Toggle chord type: Triad → 7th → 9th
+SW10	    Release	     Octave shift -1 (min -2)
+SW11	    Release      Toggle Major ↔ Minor mode
+SW12	    Press	     PANIC: All notes off
 
 
 
