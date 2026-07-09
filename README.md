@@ -15,15 +15,18 @@ PlayChord is a USB MIDI chord controller built around the Seeed XIAO RP2040 micr
 ## Hardware Specification
 
 ### Bill of Materials (BOM)
-1x PCB
-1 unsoldered Seeed XIAO RP2040
-12x through-hole 1N4148 Diodes
-11x MX-Style switches
-1x EC11 Rotary encoders
-1x 0.91 inch OLED display (the pin order is GND-VCC-SCL-SDA, MAKE SURE YOUR PCB MATCHES)
-11x white blank DSA keycaps
-3x M3x16mm screws
-3x M3x5mx4mm heatset inserts
+Qty	Item	Notes	Price
+1	PCB	PCB 1 (unsoldered)	
+1	Seeed XIAO RP2040		
+12	Through-hole 1N4148 Diodes		
+11	MX-Style switches		
+1	EC11 Rotary encoder		
+1	0.91 inch OLED display	Pin order must be GND-VCC-SCL-SDA. Ensure your PCB matches.	
+11	White blank DSA keycaps		
+3	M3×16 mm screws		
+3	M3×5×4 mm heat-set inserts		
+
+
 
 ### PCB Specifications
 PCB Dimensions: 80mm × 91.835mm
