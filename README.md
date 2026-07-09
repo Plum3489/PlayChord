@@ -15,16 +15,18 @@ PlayChord is a USB MIDI chord controller built around the Seeed XIAO RP2040 micr
 ## Hardware Specification
 
 ### Bill of Materials (BOM)
-Qty	Item	Notes	Price
-1	PCB	PCB 1 (unsoldered)	
-1	Seeed XIAO RP2040		
-12	Through-hole 1N4148 Diodes		
-11	MX-Style switches		
-1	EC11 Rotary encoder		
-1	0.91 inch OLED display	Pin order must be GND-VCC-SCL-SDA. Ensure your PCB matches.	
-11	White blank DSA keycaps		
-3	M3×16 mm screws		
-3	M3×5×4 mm heat-set inserts		
+| Qty | Item | Notes | Unit Price (USD) | Subtotal (USD) |
+|----:|------|-------|-----------------:|---------------:|
+| 1 | PCB (unsoldered) | PCB 1 | $5.00 | $5.00 |
+| 1 | Seeed XIAO RP2040 | | $5.00 | $5.00 |
+| 12 | Through-hole 1N4148 Diodes | | $0.03 | $0.36 |
+| 11 | MX-Style switches | | $0.30 | $3.30 |
+| 1 | EC11 Rotary Encoder | | $1.50 | $1.50 |
+| 1 | 0.91" OLED Display | Pin order: **GND-VCC-SCL-SDA** (PCB must match) | $2.50 | $2.50 |
+| 11 | White Blank DSA Keycaps | | $0.25 | $2.75 |
+| 3 | M3×16 mm Screws | | $0.10 | $0.30 |
+| 3 | M3×5×4 mm Heat-set Inserts | | $0.15 | $0.45 |
+| | **Total** | | | **$21.16** |
 
 
 
